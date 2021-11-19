@@ -8,9 +8,12 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-image: url(../img/1075221.jpg);
+    /* background-image: url(../img/1075221.jpg); */
+    background-color: #56BCA7 ;
     background-size: cover;
     font-family: 'Montserrat';
+    
+    
 }
 
 .logo {
@@ -50,6 +53,8 @@ legend {
     font-size: 50px;
     color: black;
     font-family: 'Montserrat';
+    justify-content: center;
+    display: flex;
 }
 
 /* modifciation des boutons  */
