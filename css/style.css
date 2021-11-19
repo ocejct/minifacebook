@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../img/1075221.jpg);
+    background-size: cover;
+    font-family: 'Montserrat';
+}
+
+.logo {
+    position: absolute;
+    top: 18%;
+    left: 48%;
+    height: 70px;
+    z-index: 1;
+    justify-content: center;
+    background-color: #DE8E4F;
+    border-radius: 50px;
+    /* border: 5px solid white; */
+    
+}
+
+label {
+    margin: 15px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+form {
+    background-color: #DE8E4F;
+    border-radius: 50px;   
+    align-self: center; 
+    padding: 40px;
+    text-align: center;
+    width: 35%;  
+    position: relative;
+    /* border: 5px solid white; */
+    /* box-shadow: 10px 5px 5px black; */
+}
+
+legend {
+    font-size: 50px;
+    color: black;
+    font-family: 'Montserrat';
+}
+
+/* modifciation des boutons  */
+
+#submit, button {
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    background-color: white;  
+}
+
+#password, button {
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    width: 300px;
+    background-color: white;  
+    border: none; 
+    
+}
+
+#pseudo, button {
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    width: 300px;
+    background-color: white; 
+    border: none; 
+}
+
+label[for="pseudo"]{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+label[for="password"]{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+label[for="remember"]{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
